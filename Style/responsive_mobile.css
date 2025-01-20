@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+     
+    /*=============== Header part Start ===============*/
+
+    .header{
+        margin: 30px auto 20px auto;
+        flex-direction: column;
+    }
+    .header_div ul{
+        gap: 23px;
+    }
+
+    .header_div ul li a{
+        font-size: 0.8rem;
+    }
+
+}
