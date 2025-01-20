@@ -3,15 +3,44 @@
     /*=============== Header part Start ===============*/
 
     .header{
-        margin: 30px auto 20px auto;
+        margin: 40px auto 40px auto;
         flex-direction: column;
     }
     .header_div ul{
-        gap: 23px;
+        gap: 22px;
     }
 
     .header_div ul li a{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .h2_header {
+        font-size: 1.3rem;
+    }
+    
+    /*=============== Header part End ===============*/
+    /*=============== Banner part Start ===============*/
+    .Banner_text {
+        width: 100%;
+        margin-top: -60px;
+        text-align: center;
+    }
+    .Banner {
+        width: 80%;
+        flex-direction: column-reverse;
+        justify-content: center;
     }
 
+    .div_circle {
+        width: 190px;
+        height: 190px;
+        margin-left: 44px;
+    }
+    .h1_title {
+        font-size: 1.6rem;
+        margin-top: 70px;
+        line-height: 35px;
+    }
+
+    /*=============== Banner part End ===============*/
+    /*=============== Banner part Start ===============*/
 }
