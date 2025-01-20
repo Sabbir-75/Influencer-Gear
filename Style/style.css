@@ -46,19 +46,11 @@
 }
 
 .search {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 24px;
 }
 
 .shop {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 36px;   
 }
 
 
@@ -144,3 +136,26 @@
 .imange_div img {
     width: 100%;
 }
+
+/*=============== Banner part End ===============*/
+/*=============== Website part Start ===============*/
+
+.Website{
+    max-width: 1110px;
+    margin: 69px auto 100px auto;
+    padding: 36px 61px 34px 62px;
+}
+.Website_cards{
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wen_img{
+    max-width: 90px;
+}
+
+
+
+/*=============== Website part End ===============*/
+
